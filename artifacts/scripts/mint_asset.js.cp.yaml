@@ -1,0 +1,28 @@
+default:
+    timestamp: 1671017533654
+    metadata:
+        vacoinid: 4
+        VestingAppAddress: 2SYXFSCZAQCZ7YIFUCUZYOVR7G6Y3UBGSJIWT4EZ4CO3T6WVYTMHVSANOY
+        VestingAppId: 5
+        VestingTimeStamp: 1671017563
+    asa: {}
+    ssc:
+        create_approval.py-create_clearstate.py:
+            1671017534:
+                creator: 2WGWFYPT5MLA4DDCXNP6PZXOPVPAEKRTPRSXJDOOCO3VSQOE4H2L4H6GFM
+                txId: Y6VZPIOMXEBBMI6ZBC7G63PPD64OKUMQLGNBDXLGMQZAGL377GDQ
+                confirmedRound: 301
+                appID: 1
+                applicationAccount: WCS6TVPJRBSARHLN2326LRU5BYVJZUKI2VJ53CAWKYYHDE455ZGKANWMGM
+                timestamp: 1671017534
+                deleted: false
+        vesting_approval.py-vesting_clearstate.py:
+            1671017563:
+                creator: 2WGWFYPT5MLA4DDCXNP6PZXOPVPAEKRTPRSXJDOOCO3VSQOE4H2L4H6GFM
+                txId: Y2J2UNJ3O7BCJBBIPLDP5F6MS4LXQUM476LWXWD64LSNGVJ35GHA
+                confirmedRound: 308
+                appID: 5
+                applicationAccount: 2SYXFSCZAQCZ7YIFUCUZYOVR7G6Y3UBGSJIWT4EZ4CO3T6WVYTMHVSANOY
+                timestamp: 1671017563
+                deleted: false
+    dLsig: {}

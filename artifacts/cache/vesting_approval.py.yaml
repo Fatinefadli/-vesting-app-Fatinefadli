@@ -1,0 +1,1611 @@
+filename: vesting_approval.py
+timestamp: 1671017555
+compiled: BiAHAAEE2IqGD6jBoAECGCYPC2luaXRpYWxUaW1lFndpdGhkb3dfQ29tcGFueVJlc2VydmUIdmFjb2luaWQIYWR2aXNvcnMEdGVhbRBwcml2YXRlX2ludmVzdG9yD2NvbXBhbnlfcmVzZXJ2ZRlBbW91bnRUb3RhbENvbXBhbnlSZXNlcnZlGHdpdGhkb3dfUHJpdmF0ZUludmVzdG9ycxtBbW91bnRUb3RhbFByaXZhdGVJbnZlc3RvcnMMd2l0aGRvd19UZWFtD0Ftb3VudFRvdGFsVGVhbRB3aXRoZG93X0Fkdmlzb3JzE0Ftb3VudFRvdGFsQWR2aXNvcnMLb3B0SW5TdGF0dXMxGCISQAFcMRkjEkABUzEZIQUSQAFJMRkkEkABQDEZgQUSQAE2MRkiEkAAAQAxIDIDEjEJMgMSEDEVMgMSEEQ2GgCABW9wdGluEkAA0jYaAIATd2l0aGRyYXdGcm9tVmVzdGluZxJAABo2GgCACGluaXRUaW1lEkAAAQAoNhoBF2cjQzEgMgMSMQkyAxIQMRUyAxIQRDEAK2QSQABkMQAnBGQSQAA9MQAnBWQSQAAWMQAnBmQSQAABACknB2QpZAmIAPwjQzIHKGQlCA1AAAIiQycIJwkyByhkCSEECogBM0L/4DIHKGQlCA1AAAIiQycKJwsyByhkCSEECogBFUL/wjIHKGQlCA1AAAIiQycMJw0yByhkCSEECogA90L/pDEgMgMSMQkyAxIQMRUyAxIQRCcOZCISRDYwACpkEkQxADIJEkSxJLIQMgqyFCKyEjYwALIRsycOI2cjQyJDIkMjQyJDMSAyAxIxCTIDEhAxFTIDEhBEKjYaABdnKzYcAWcnBTYcAmcnBjYcA2cnBDYcBGcnDTYaARdnJwk2GgIXZycHNhoDF2cnCzYaBBdnJwwiZycIImcnCiJnKSJnI0M1ATUAKmQ3ATAAEkQyBCEFEkQzABAjEkQzARCBBhJENwEaARc0AQ5ENwEaARciDUSxJLIQMwEAshQ3ARoBF7ISNwEwALIRszQANABkNwEaARcIZ4k1BDUDNQI0BIEMDkAALjQEIQYNQAAXNAI0A2Q0BCMJCyEGCjQCZAmI/4JCABE0AjQDZDQCZAmI/3NCAAIiQ4k=
+compiledHash: 4KNQ7Q6MJIY6SSISCIR6QCA7C7UCI73RRZTPH46V3G6JUMXXIKAUWDZ3V4
+srcHash: 4059781885
+base64ToBytes:
+    - 6
+    - 32
+    - 7
+    - 0
+    - 1
+    - 4
+    - 216
+    - 138
+    - 134
+    - 15
+    - 168
+    - 193
+    - 160
+    - 1
+    - 2
+    - 24
+    - 38
+    - 15
+    - 11
+    - 105
+    - 110
+    - 105
+    - 116
+    - 105
+    - 97
+    - 108
+    - 84
+    - 105
+    - 109
+    - 101
+    - 22
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 111
+    - 119
+    - 95
+    - 67
+    - 111
+    - 109
+    - 112
+    - 97
+    - 110
+    - 121
+    - 82
+    - 101
+    - 115
+    - 101
+    - 114
+    - 118
+    - 101
+    - 8
+    - 118
+    - 97
+    - 99
+    - 111
+    - 105
+    - 110
+    - 105
+    - 100
+    - 8
+    - 97
+    - 100
+    - 118
+    - 105
+    - 115
+    - 111
+    - 114
+    - 115
+    - 4
+    - 116
+    - 101
+    - 97
+    - 109
+    - 16
+    - 112
+    - 114
+    - 105
+    - 118
+    - 97
+    - 116
+    - 101
+    - 95
+    - 105
+    - 110
+    - 118
+    - 101
+    - 115
+    - 116
+    - 111
+    - 114
+    - 15
+    - 99
+    - 111
+    - 109
+    - 112
+    - 97
+    - 110
+    - 121
+    - 95
+    - 114
+    - 101
+    - 115
+    - 101
+    - 114
+    - 118
+    - 101
+    - 25
+    - 65
+    - 109
+    - 111
+    - 117
+    - 110
+    - 116
+    - 84
+    - 111
+    - 116
+    - 97
+    - 108
+    - 67
+    - 111
+    - 109
+    - 112
+    - 97
+    - 110
+    - 121
+    - 82
+    - 101
+    - 115
+    - 101
+    - 114
+    - 118
+    - 101
+    - 24
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 111
+    - 119
+    - 95
+    - 80
+    - 114
+    - 105
+    - 118
+    - 97
+    - 116
+    - 101
+    - 73
+    - 110
+    - 118
+    - 101
+    - 115
+    - 116
+    - 111
+    - 114
+    - 115
+    - 27
+    - 65
+    - 109
+    - 111
+    - 117
+    - 110
+    - 116
+    - 84
+    - 111
+    - 116
+    - 97
+    - 108
+    - 80
+    - 114
+    - 105
+    - 118
+    - 97
+    - 116
+    - 101
+    - 73
+    - 110
+    - 118
+    - 101
+    - 115
+    - 116
+    - 111
+    - 114
+    - 115
+    - 12
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 111
+    - 119
+    - 95
+    - 84
+    - 101
+    - 97
+    - 109
+    - 15
+    - 65
+    - 109
+    - 111
+    - 117
+    - 110
+    - 116
+    - 84
+    - 111
+    - 116
+    - 97
+    - 108
+    - 84
+    - 101
+    - 97
+    - 109
+    - 16
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 111
+    - 119
+    - 95
+    - 65
+    - 100
+    - 118
+    - 105
+    - 115
+    - 111
+    - 114
+    - 115
+    - 19
+    - 65
+    - 109
+    - 111
+    - 117
+    - 110
+    - 116
+    - 84
+    - 111
+    - 116
+    - 97
+    - 108
+    - 65
+    - 100
+    - 118
+    - 105
+    - 115
+    - 111
+    - 114
+    - 115
+    - 11
+    - 111
+    - 112
+    - 116
+    - 73
+    - 110
+    - 83
+    - 116
+    - 97
+    - 116
+    - 117
+    - 115
+    - 49
+    - 24
+    - 34
+    - 18
+    - 64
+    - 1
+    - 92
+    - 49
+    - 25
+    - 35
+    - 18
+    - 64
+    - 1
+    - 83
+    - 49
+    - 25
+    - 33
+    - 5
+    - 18
+    - 64
+    - 1
+    - 73
+    - 49
+    - 25
+    - 36
+    - 18
+    - 64
+    - 1
+    - 64
+    - 49
+    - 25
+    - 129
+    - 5
+    - 18
+    - 64
+    - 1
+    - 54
+    - 49
+    - 25
+    - 34
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 54
+    - 26
+    - 0
+    - 128
+    - 5
+    - 111
+    - 112
+    - 116
+    - 105
+    - 110
+    - 18
+    - 64
+    - 0
+    - 210
+    - 54
+    - 26
+    - 0
+    - 128
+    - 19
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 114
+    - 97
+    - 119
+    - 70
+    - 114
+    - 111
+    - 109
+    - 86
+    - 101
+    - 115
+    - 116
+    - 105
+    - 110
+    - 103
+    - 18
+    - 64
+    - 0
+    - 26
+    - 54
+    - 26
+    - 0
+    - 128
+    - 8
+    - 105
+    - 110
+    - 105
+    - 116
+    - 84
+    - 105
+    - 109
+    - 101
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 40
+    - 54
+    - 26
+    - 1
+    - 23
+    - 103
+    - 35
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 64
+    - 0
+    - 100
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 64
+    - 0
+    - 61
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 64
+    - 0
+    - 22
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 41
+    - 39
+    - 7
+    - 100
+    - 41
+    - 100
+    - 9
+    - 136
+    - 0
+    - 252
+    - 35
+    - 67
+    - 50
+    - 7
+    - 40
+    - 100
+    - 37
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 34
+    - 67
+    - 39
+    - 8
+    - 39
+    - 9
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 33
+    - 4
+    - 10
+    - 136
+    - 1
+    - 51
+    - 66
+    - 255
+    - 224
+    - 50
+    - 7
+    - 40
+    - 100
+    - 37
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 34
+    - 67
+    - 39
+    - 10
+    - 39
+    - 11
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 33
+    - 4
+    - 10
+    - 136
+    - 1
+    - 21
+    - 66
+    - 255
+    - 194
+    - 50
+    - 7
+    - 40
+    - 100
+    - 37
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 34
+    - 67
+    - 39
+    - 12
+    - 39
+    - 13
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 33
+    - 4
+    - 10
+    - 136
+    - 0
+    - 247
+    - 66
+    - 255
+    - 164
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 39
+    - 14
+    - 100
+    - 34
+    - 18
+    - 68
+    - 54
+    - 48
+    - 0
+    - 42
+    - 100
+    - 18
+    - 68
+    - 49
+    - 0
+    - 50
+    - 9
+    - 18
+    - 68
+    - 177
+    - 36
+    - 178
+    - 16
+    - 50
+    - 10
+    - 178
+    - 20
+    - 34
+    - 178
+    - 18
+    - 54
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 39
+    - 14
+    - 35
+    - 103
+    - 35
+    - 67
+    - 34
+    - 67
+    - 34
+    - 67
+    - 35
+    - 67
+    - 34
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 42
+    - 54
+    - 26
+    - 0
+    - 23
+    - 103
+    - 43
+    - 54
+    - 28
+    - 1
+    - 103
+    - 39
+    - 5
+    - 54
+    - 28
+    - 2
+    - 103
+    - 39
+    - 6
+    - 54
+    - 28
+    - 3
+    - 103
+    - 39
+    - 4
+    - 54
+    - 28
+    - 4
+    - 103
+    - 39
+    - 13
+    - 54
+    - 26
+    - 1
+    - 23
+    - 103
+    - 39
+    - 9
+    - 54
+    - 26
+    - 2
+    - 23
+    - 103
+    - 39
+    - 7
+    - 54
+    - 26
+    - 3
+    - 23
+    - 103
+    - 39
+    - 11
+    - 54
+    - 26
+    - 4
+    - 23
+    - 103
+    - 39
+    - 12
+    - 34
+    - 103
+    - 39
+    - 8
+    - 34
+    - 103
+    - 39
+    - 10
+    - 34
+    - 103
+    - 41
+    - 34
+    - 103
+    - 35
+    - 67
+    - 53
+    - 1
+    - 53
+    - 0
+    - 42
+    - 100
+    - 55
+    - 1
+    - 48
+    - 0
+    - 18
+    - 68
+    - 50
+    - 4
+    - 33
+    - 5
+    - 18
+    - 68
+    - 51
+    - 0
+    - 16
+    - 35
+    - 18
+    - 68
+    - 51
+    - 1
+    - 16
+    - 129
+    - 6
+    - 18
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 52
+    - 1
+    - 14
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 34
+    - 13
+    - 68
+    - 177
+    - 36
+    - 178
+    - 16
+    - 51
+    - 1
+    - 0
+    - 178
+    - 20
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 178
+    - 18
+    - 55
+    - 1
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 52
+    - 0
+    - 52
+    - 0
+    - 100
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 8
+    - 103
+    - 137
+    - 53
+    - 4
+    - 53
+    - 3
+    - 53
+    - 2
+    - 52
+    - 4
+    - 129
+    - 12
+    - 14
+    - 64
+    - 0
+    - 46
+    - 52
+    - 4
+    - 33
+    - 6
+    - 13
+    - 64
+    - 0
+    - 23
+    - 52
+    - 2
+    - 52
+    - 3
+    - 100
+    - 52
+    - 4
+    - 35
+    - 9
+    - 11
+    - 33
+    - 6
+    - 10
+    - 52
+    - 2
+    - 100
+    - 9
+    - 136
+    - 255
+    - 130
+    - 66
+    - 0
+    - 17
+    - 52
+    - 2
+    - 52
+    - 3
+    - 100
+    - 52
+    - 2
+    - 100
+    - 9
+    - 136
+    - 255
+    - 115
+    - 66
+    - 0
+    - 2
+    - 34
+    - 67
+    - 137
+tealCode: "#pragma version 6\r
+
+    txn ApplicationID\r
+
+    int 0\r
+
+    ==\r
+
+    bnz main_l33\r
+
+    txn OnCompletion\r
+
+    int OptIn\r
+
+    ==\r
+
+    bnz main_l32\r
+
+    txn OnCompletion\r
+
+    int CloseOut\r
+
+    ==\r
+
+    bnz main_l31\r
+
+    txn OnCompletion\r
+
+    int UpdateApplication\r
+
+    ==\r
+
+    bnz main_l30\r
+
+    txn OnCompletion\r
+
+    int DeleteApplication\r
+
+    ==\r
+
+    bnz main_l29\r
+
+    txn OnCompletion\r
+
+    int NoOp\r
+
+    ==\r
+
+    bnz main_l7\r
+
+    err\r
+
+    main_l7:\r
+
+    txn RekeyTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    txn CloseRemainderTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    txn AssetCloseTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    assert\r
+
+    txna ApplicationArgs 0\r
+
+    byte \"optin\"\r
+
+    ==\r
+
+    bnz main_l28\r
+
+    txna ApplicationArgs 0\r
+
+    byte \"withdrawFromVesting\"\r
+
+    ==\r
+
+    bnz main_l12\r
+
+    txna ApplicationArgs 0\r
+
+    byte \"initTime\"\r
+
+    ==\r
+
+    bnz main_l11\r
+
+    err\r
+
+    main_l11:\r
+
+    byte \"initialTime\"\r
+
+    txna ApplicationArgs 1\r
+
+    btoi\r
+
+    app_global_put\r
+
+    int 1\r
+
+    return\r
+
+    main_l12:\r
+
+    txn RekeyTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    txn CloseRemainderTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    txn AssetCloseTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    assert\r
+
+    txn Sender\r
+
+    byte \"advisors\"\r
+
+    app_global_get\r
+
+    ==\r
+
+    bnz main_l25\r
+
+    txn Sender\r
+
+    byte \"team\"\r
+
+    app_global_get\r
+
+    ==\r
+
+    bnz main_l22\r
+
+    txn Sender\r
+
+    byte \"private_investor\"\r
+
+    app_global_get\r
+
+    ==\r
+
+    bnz main_l19\r
+
+    txn Sender\r
+
+    byte \"company_reserve\"\r
+
+    app_global_get\r
+
+    ==\r
+
+    bnz main_l17\r
+
+    err\r
+
+    main_l17:\r
+
+    byte \"withdow_CompanyReserve\"\r
+
+    byte \"AmountTotalCompanyReserve\"\r
+
+    app_global_get\r
+
+    byte \"withdow_CompanyReserve\"\r
+
+    app_global_get\r
+
+    -\r
+
+    callsub signTransaction_0\r
+
+    main_l18:\r
+
+    int 1\r
+
+    return\r
+
+    main_l19:\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    int 31556952\r
+
+    +\r
+
+    >\r
+
+    bnz main_l21\r
+
+    int 0\r
+
+    return\r
+
+    main_l21:\r
+
+    byte \"withdow_PrivateInvestors\"\r
+
+    byte \"AmountTotalPrivateInvestors\"\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    -\r
+
+    int 2629800\r
+
+    /\r
+
+    callsub functionToWithdraw_1\r
+
+    b main_l18\r
+
+    main_l22:\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    int 31556952\r
+
+    +\r
+
+    >\r
+
+    bnz main_l24\r
+
+    int 0\r
+
+    return\r
+
+    main_l24:\r
+
+    byte \"withdow_Team\"\r
+
+    byte \"AmountTotalTeam\"\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    -\r
+
+    int 2629800\r
+
+    /\r
+
+    callsub functionToWithdraw_1\r
+
+    b main_l18\r
+
+    main_l25:\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    int 31556952\r
+
+    +\r
+
+    >\r
+
+    bnz main_l27\r
+
+    int 0\r
+
+    return\r
+
+    main_l27:\r
+
+    byte \"withdow_Advisors\"\r
+
+    byte \"AmountTotalAdvisors\"\r
+
+    global LatestTimestamp\r
+
+    byte \"initialTime\"\r
+
+    app_global_get\r
+
+    -\r
+
+    int 2629800\r
+
+    /\r
+
+    callsub functionToWithdraw_1\r
+
+    b main_l18\r
+
+    main_l28:\r
+
+    txn RekeyTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    txn CloseRemainderTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    txn AssetCloseTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    assert\r
+
+    byte \"optInStatus\"\r
+
+    app_global_get\r
+
+    int 0\r
+
+    ==\r
+
+    assert\r
+
+    txna Assets 0\r
+
+    byte \"vacoinid\"\r
+
+    app_global_get\r
+
+    ==\r
+
+    assert\r
+
+    txn Sender\r
+
+    global CreatorAddress\r
+
+    ==\r
+
+    assert\r
+
+    itxn_begin\r
+
+    int axfer\r
+
+    itxn_field TypeEnum\r
+
+    global CurrentApplicationAddress\r
+
+    itxn_field AssetReceiver\r
+
+    int 0\r
+
+    itxn_field AssetAmount\r
+
+    txna Assets 0\r
+
+    itxn_field XferAsset\r
+
+    itxn_submit\r
+
+    byte \"optInStatus\"\r
+
+    int 1\r
+
+    app_global_put\r
+
+    int 1\r
+
+    return\r
+
+    main_l29:\r
+
+    int 0\r
+
+    return\r
+
+    main_l30:\r
+
+    int 0\r
+
+    return\r
+
+    main_l31:\r
+
+    int 1\r
+
+    return\r
+
+    main_l32:\r
+
+    int 0\r
+
+    return\r
+
+    main_l33:\r
+
+    txn RekeyTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    txn CloseRemainderTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    txn AssetCloseTo\r
+
+    global ZeroAddress\r
+
+    ==\r
+
+    &&\r
+
+    assert\r
+
+    byte \"vacoinid\"\r
+
+    txna ApplicationArgs 0\r
+
+    btoi\r
+
+    app_global_put\r
+
+    byte \"advisors\"\r
+
+    txna Accounts 1\r
+
+    app_global_put\r
+
+    byte \"private_investor\"\r
+
+    txna Accounts 2\r
+
+    app_global_put\r
+
+    byte \"company_reserve\"\r
+
+    txna Accounts 3\r
+
+    app_global_put\r
+
+    byte \"team\"\r
+
+    txna Accounts 4\r
+
+    app_global_put\r
+
+    byte \"AmountTotalAdvisors\"\r
+
+    txna ApplicationArgs 1\r
+
+    btoi\r
+
+    app_global_put\r
+
+    byte \"AmountTotalPrivateInvestors\"\r
+
+    txna ApplicationArgs 2\r
+
+    btoi\r
+
+    app_global_put\r
+
+    byte \"AmountTotalCompanyReserve\"\r
+
+    txna ApplicationArgs 3\r
+
+    btoi\r
+
+    app_global_put\r
+
+    byte \"AmountTotalTeam\"\r
+
+    txna ApplicationArgs 4\r
+
+    btoi\r
+
+    app_global_put\r
+
+    byte \"withdow_Advisors\"\r
+
+    int 0\r
+
+    app_global_put\r
+
+    byte \"withdow_PrivateInvestors\"\r
+
+    int 0\r
+
+    app_global_put\r
+
+    byte \"withdow_Team\"\r
+
+    int 0\r
+
+    app_global_put\r
+
+    byte \"withdow_CompanyReserve\"\r
+
+    int 0\r
+
+    app_global_put\r
+
+    int 1\r
+
+    return\r
+
+    \r
+
+    // signTransaction\r
+
+    signTransaction_0:\r
+
+    store 1\r
+
+    store 0\r
+
+    byte \"vacoinid\"\r
+
+    app_global_get\r
+
+    gtxna 1 Assets 0\r
+
+    ==\r
+
+    assert\r
+
+    global GroupSize\r
+
+    int 2\r
+
+    ==\r
+
+    assert\r
+
+    gtxn 0 TypeEnum\r
+
+    int pay\r
+
+    ==\r
+
+    assert\r
+
+    gtxn 1 TypeEnum\r
+
+    int appl\r
+
+    ==\r
+
+    assert\r
+
+    gtxna 1 ApplicationArgs 1\r
+
+    btoi\r
+
+    load 1\r
+
+    <=\r
+
+    assert\r
+
+    gtxna 1 ApplicationArgs 1\r
+
+    btoi\r
+
+    int 0\r
+
+    >\r
+
+    assert\r
+
+    itxn_begin\r
+
+    int axfer\r
+
+    itxn_field TypeEnum\r
+
+    gtxn 1 Sender\r
+
+    itxn_field AssetReceiver\r
+
+    gtxna 1 ApplicationArgs 1\r
+
+    btoi\r
+
+    itxn_field AssetAmount\r
+
+    gtxna 1 Assets 0\r
+
+    itxn_field XferAsset\r
+
+    itxn_submit\r
+
+    load 0\r
+
+    load 0\r
+
+    app_global_get\r
+
+    gtxna 1 ApplicationArgs 1\r
+
+    btoi\r
+
+    +\r
+
+    app_global_put\r
+
+    retsub\r
+
+    \r
+
+    // functionToWithdraw\r
+
+    functionToWithdraw_1:\r
+
+    store 4\r
+
+    store 3\r
+
+    store 2\r
+
+    load 4\r
+
+    int 12\r
+
+    <=\r
+
+    bnz functionToWithdraw_1_l4\r
+
+    load 4\r
+
+    int 24\r
+
+    >\r
+
+    bnz functionToWithdraw_1_l3\r
+
+    load 2\r
+
+    load 3\r
+
+    app_global_get\r
+
+    load 4\r
+
+    int 1\r
+
+    -\r
+
+    *\r
+
+    int 24\r
+
+    /\r
+
+    load 2\r
+
+    app_global_get\r
+
+    -\r
+
+    callsub signTransaction_0\r
+
+    b functionToWithdraw_1_l5\r
+
+    functionToWithdraw_1_l3:\r
+
+    load 2\r
+
+    load 3\r
+
+    app_global_get\r
+
+    load 2\r
+
+    app_global_get\r
+
+    -\r
+
+    callsub signTransaction_0\r
+
+    b functionToWithdraw_1_l5\r
+
+    functionToWithdraw_1_l4:\r
+
+    int 0\r
+
+    return\r
+
+    functionToWithdraw_1_l5:\r
+
+    retsub\r\n"
